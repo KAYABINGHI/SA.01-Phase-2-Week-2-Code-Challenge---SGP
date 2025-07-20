@@ -1,5 +1,5 @@
 
-# 🎯 Smart Goal Planner
+# Smart Goal Planner
 
 ## Description
 
@@ -9,13 +9,13 @@ This is a SMART Goal Planner application built using **React**. The app allows u
 
 ## Features
 
-- 🧮 View a list of financial goals
-- ➕ Add new goals
-- 📝 Edit existing goals
-- ❌ Delete goals
-- 🎯 View progress as percentage bars
-- 📅 Deadline & creation date tracking
-- ⚛️ Built with React functional components
+-  View a list of financial goals
+-  Add new goals
+-  Edit existing goals
+-  Delete goals
+-  View progress as percentage bars
+-  Deadline & creation date tracking
+-  Built with React functional components
 
 
 ## Deliverables
