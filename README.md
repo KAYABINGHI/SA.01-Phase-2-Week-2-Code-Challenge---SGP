@@ -27,10 +27,10 @@ This is a SMART Goal Planner application built using **React**. The app allows u
 ## How to Run
 
 ```bash
-npm install json-server
-npx json-server --watch db.json --port 3000
+npm install -g json-server
+json-server --watch db.json --port 3000
 npm run dev 
-- (You should see React app running at http://localhost:5173.)
+- (You should see React app running at http://localhost:5173/)
 ```
 ## Contributing
 1. Fork the repository.
