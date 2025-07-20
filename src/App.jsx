@@ -57,7 +57,7 @@ function App() {
 
   return (
 <div className="container">
-  <h1>🎯 Smart Goal Planner</h1>
+  <h1>Smart Goal Planner</h1>
   <GoalForm onAddGoal={addGoal} />
   <Overview goals={goals} />
   <GoalList goals={goals} onUpdate={updateGoal} onDelete={deleteGoal} />
