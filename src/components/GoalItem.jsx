@@ -33,8 +33,8 @@ const GoalItem = ({ goal, onDelete, onEdit }) => {
       ) : (
         <>
           <h3>{name}</h3>
-          <p><strong>Target:</strong> ${targetAmount}</p>
-          <p><strong>Saved:</strong> ${savedAmount}</p>
+          <p><strong>Target:</strong> KES{targetAmount}</p>
+          <p><strong>Saved:</strong> KES{savedAmount}</p>
           <p><strong>Category:</strong> {category}</p>
           <p><strong>Deadline:</strong> {deadline}</p>
           <div className="progress-bar">

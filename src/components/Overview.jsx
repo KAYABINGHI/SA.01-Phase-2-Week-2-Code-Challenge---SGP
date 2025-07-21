@@ -16,11 +16,11 @@ const Overview = ({ goals }) => {
         </div>
         <div className="card stat-card">
           <h4>Total Target</h4>
-          <p>${totalTarget.toLocaleString()}</p>
+          <p>KES {totalTarget.toLocaleString()}</p>
         </div>
         <div className="card stat-card">
           <h4>Total Saved</h4>
-          <p>${totalSaved.toLocaleString()}</p>
+          <p>KES {totalSaved.toLocaleString()}</p>
         </div>
         <div className="card stat-card">
           <h4>Overall Progress</h4>
