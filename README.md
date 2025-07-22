@@ -22,7 +22,6 @@ This is a SMART Goal Planner application built using **React**. The app allows u
 
 - Data is managed **locally using React state** (no persistence).
 - Structure supports future upgrades to connect with **JSON Server or any backend**.
-- Focused on **clean code**, **component reuse**, and **React best practices** for educational purposes.
 
 ## How to Run
 
@@ -55,7 +54,7 @@ npm run dev
 ## License
 
 
-This project is under Moringa school. You are free to use, modify, and distribute this code, provided that the original author is credited.
+This project is for educational purposes. You are free to use, modify, and distribute this code, provided that the original author is credited.
 
 
 ## Contact
