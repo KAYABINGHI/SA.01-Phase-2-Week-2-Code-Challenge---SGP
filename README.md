@@ -1,12 +1,55 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# SMART GOAL PLANNER
 
-Currently, two official plugins are available:
+This is a SMART Goal Planner application built using **React**. The app allows users to track financial goals, including goal name, target amount, saved amount, category, and deadline. It demonstrates core React concepts such as **props**, **state**, **component structure**, and **data handling**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Goal Management (CRUD - Create, Read, Update, Delete)
+- Add a new goal (e.g. “Emergency Fund”)
+
+- View a list of all current goals
+
+- Edit goal details (name, amount, deadline, etc.)
+
+- Delete a goal when it's no longer needed
+
+2. Deposit Functionality
+- Choose a goal
+
+- Enter how much you want to deposit
+
+- The app will increase your saved amount for that goal and show your new progress
+
+3. Track Progress
+- Shows how much you've saved vs. your goal target
+
+- Displays a progress bar
+
+- Tells you how much is left to save
+
+4. Overview Dashboard
+- Shows total number of goals
+
+- Total amount saved across all goals
+
+- Number of completed goals
+
+- Warnings for goals nearing deadlines (less than 30 days)
+
+- Marks goals as Overdue if deadline has passed but goal isn’t complete
+
+
+
+
+## Tech Stack
+
+- React (with Hooks)
+- CSS for styling
+- Local component state (no backend/API)
+- JavaScript 
+## Authors
+
+- [@KAYABINGHI](https://github.com/KAYABINGHI)
+
